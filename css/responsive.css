@@ -752,6 +752,7 @@
 
 	.header_inner {
 		padding: 0 8%;
+		margin-top: -40px;
 	}
 
 	.sidebar-menu {
@@ -768,6 +769,16 @@
 
 	.logo img {
 		width: 150px;
+	}
+
+	.client-review {
+		& .review-profile {
+			top: -16%;
+		}
+	}
+
+	.review-profile img {
+		width: 112px;
 	}
 }
 
